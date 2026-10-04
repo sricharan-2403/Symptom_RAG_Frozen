@@ -1,0 +1,72 @@
+# Environment
+.env
+.venv/
+.venv-1/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Local secrets/config
+*.local
+*.secret
+
+# Model/cache artifacts
+models/
+.cache/
+
+# Generated embeddings
+data/embeddings/
+
+# Persistent Qdrant storage
+data/qdrant/
+
+# Large raw PMC corpus
+data/raw/pmc/
+
+# Raw downloaded datasets
+data/raw/**/*.csv
+data/raw/**/*.json
+
+# Generated/temporary processed data
+data/processed/*_BACKUP_*
+data/processed/*_STAGED*
+data/processed/*_audit*
+
+# Local inspection files
+project_tree.txt
+file_sizes.txt
+
+# Logs
+*.log
+# Python package build metadata
+*.egg-info/
+# Generated processed biomedical data
+data/processed/
+
+# Reference papers
+prep/*.pdf
+literature_qdrant_export_v1.zip
+
+# Local Git backup
+.git_old_backup/
+
+# Local project inspection artifacts
+PROJECT_INVENTORY.txt
+commands.txt
+tests1/
+
+literature_qdrant_export_v1/
+
+# Persistent Qdrant Docker storage
+data/qdrant_server/
+
+# Local Qdrant backup
+data/qdrant_backup_before_colab_restore/
