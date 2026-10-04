@@ -70,3 +70,6 @@ data/qdrant_server/
 
 # Local Qdrant backup
 data/qdrant_backup_before_colab_restore/
+
+# Separate Qdrant handoff package (not for GitHub)
+Qdrant_Symptom_RAG_Handoff/
